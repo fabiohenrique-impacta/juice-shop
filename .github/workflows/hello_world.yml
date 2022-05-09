@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+hello-world-windowns:
+  runs-on: windowns-latest
+  
+  steps:
+  
+  - name: Print hello world
+    run: echo "Hello world Windows"
